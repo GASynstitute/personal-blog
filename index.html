@@ -1,18 +1,174 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Words and Things</title>
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>GASynstitute — Cloud &amp; Endpoint Administrator</title>
+  <meta name="description" content="Cloud & Endpoint Administrator. A calm learning log of real projects: Azure foundations, endpoint management, security-minded operations, and practical write-ups." />
+
+  <link rel="canonical" href="https://YOUR-DOMAIN.example/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="GASynstitute — Cloud & Endpoint Administrator" />
+  <meta property="og:description" content="A calm learning log of real projects: Azure foundations, endpoint management, security-minded operations, and practical write-ups." />
+  <meta property="og:url" content="https://YOUR-DOMAIN.example/" />
+  <meta property="og:image" content="https://YOUR-DOMAIN.example/assets/img/og-default.png" />
+
+  <!-- Optional: Twitter cards -->
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="stylesheet" href="/assets/css/site.css" />
+
+  <!-- Justified “JS”: JSON-LD for SEO (no runtime scripts). -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "GASynstitute",
+    "jobTitle": "Cloud & Endpoint Administrator",
+    "url": "https://YOUR-DOMAIN.example/",
+    "sameAs": [
+      "https://github.com/GASynstitute",
+      "https://www.linkedin.com/in/YOUR-HANDLE"
+    ]
+  }
+  </script>
 </head>
+
 <body>
-  <h1>Your Name</h1>
-  <p>Cloud / IT Professional</p>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-  <h2>About</h2>
-  <p>This site is hosted on Azure Static Web Apps.</p>
+  <header>
+    <div class="site-identity">
+      <p class="site-title"><a href="/">GASynstitute</a></p>
+      <p class="site-tagline">Cloud &amp; Endpoint Administrator</p>
+    </div>
 
-  <h2>Blog</h2>
-  <p>Coming soon.</p>
+    <nav aria-label="Primary">
+      <ul>
+        <li><a href="/" aria-current="page">Home</a></li>
+        <li><a href="/resume/">Résumé</a></li>
+        <li><a href="/projects/">Projects</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section aria-labelledby="intro-title">
+      <h1 id="intro-title">Practical cloud, endpoint, and security-minded operations.</h1>
+      <p>
+        I build and document small, real systems: Azure foundations, endpoint management workflows,
+        and operational patterns that hold up under scrutiny.
+      </p>
+      <p>
+        This site is a learning log—kept intentionally calm, clear, and repeatable.
+      </p>
+
+      <nav aria-label="Primary calls to action">
+        <ul>
+          <li><a href="/resume/">View résumé</a></li>
+          <li><a href="/projects/">Browse projects</a></li>
+          <li><a href="/blog/">Read write-ups</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <section aria-labelledby="now-title">
+      <header>
+        <h2 id="now-title">Now: Azure setup (evolving)</h2>
+        <p>
+          A single, living snapshot of what I’m building and what I’m learning as I go.
+        </p>
+      </header>
+
+      <article aria-labelledby="now-focus">
+        <h3 id="now-focus">Current focus</h3>
+        <ul>
+          <li><strong>Tenant foundations:</strong> identity, baseline settings, and clear naming conventions.</li>
+          <li><strong>Cost hygiene:</strong> budgets, alerts, and small experiments with predictable spend.</li>
+          <li><strong>Deployment workflow:</strong> Azure Static Web Apps + GitHub repo-driven changes.</li>
+          <li><strong>Next:</strong> tighten access controls, document decisions, and add first project page.</li>
+        </ul>
+
+        <p class="note">
+          <strong>Why this matters:</strong> I’m aiming for a setup that’s easy to explain, easy to audit, and easy to extend.
+        </p>
+      </article>
+    </section>
+
+    <section aria-labelledby="featured-projects-title">
+      <h2 id="featured-projects-title">Featured projects</h2>
+
+      <div class="cards" role="list">
+        <article role="listitem">
+          <h3><a href="/projects/azure-static-web-app/">Azure Static Web Apps: personal site</a></h3>
+          <p>Simple, semantic HTML deploy pipeline with clean URLs and an evolving content structure.</p>
+          <p><a href="/projects/azure-static-web-app/">Project details</a> · <a href="/blog/2026/01/first-deploy/">Write-up</a></p>
+        </article>
+
+        <article role="listitem">
+          <h3><a href="/projects/tenant-foundations/">Tenant foundations</a></h3>
+          <p>Baseline decisions around identity, naming, budgets, and “first principles” governance.</p>
+          <p><a href="/projects/tenant-foundations/">Project details</a></p>
+        </article>
+
+        <article role="listitem">
+          <h3><a href="/projects/endpoint-baseline/">Endpoint baseline (planned)</a></h3>
+          <p>Drafting a minimal endpoint posture: enrollment, compliance, and practical hardening notes.</p>
+          <p><a href="/projects/endpoint-baseline/">Project details</a></p>
+        </article>
+      </div>
+    </section>
+
+    <section aria-labelledby="recent-writing-title">
+      <h2 id="recent-writing-title">Recent write-ups</h2>
+      <ol>
+        <li>
+          <article>
+            <h3><a href="/blog/2026/01/first-deploy/">First deploy: from repo to live site</a></h3>
+            <p>
+              <time datetime="2026-01-18">Jan 18, 2026</time>
+              — establishing a repeatable publish workflow.
+            </p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h3><a href="/blog/2026/01/budgets-alerts/">Azure budgets and alerts that actually help</a></h3>
+            <p>
+              <time datetime="2026-01-19">Jan 19, 2026</time>
+              — controlling spend without losing momentum.
+            </p>
+          </article>
+        </li>
+      </ol>
+      <p><a href="/blog/">View all posts</a></p>
+    </section>
+
+    <section aria-labelledby="contact-teaser-title">
+      <h2 id="contact-teaser-title">Contact</h2>
+      <p>
+        If you want to collaborate, compare notes, or ask about a specific project,
+        email is usually the best first step.
+      </p>
+      <p><a href="/contact/">Contact details</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>
+      © <span id="year">2026</span> GASynstitute. Built on Azure Static Web Apps.
+    </p>
+    <ul aria-label="Footer links">
+      <li><a href="https://github.com/GASynstitute">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/YOUR-HANDLE">LinkedIn</a></li>
+      <li><a href="/contact/">Email</a></li>
+    </ul>
+  </footer>
 </body>
 </html>
